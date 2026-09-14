@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"rdeck/internal/console"
-	"rdeck/internal/events"
-	"rdeck/internal/resp"
-	"rdeck/internal/serverstats"
+	"github.com/jjflamp/rdeck/internal/console"
+	"github.com/jjflamp/rdeck/internal/events"
+	"github.com/jjflamp/rdeck/internal/resp"
+	"github.com/jjflamp/rdeck/internal/serverstats"
 )
 
 type consoleSession struct {

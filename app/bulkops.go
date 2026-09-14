@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"rdeck/internal/bulkops"
-	"rdeck/internal/events"
-	"rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/bulkops"
+	"github.com/jjflamp/rdeck/internal/events"
+	"github.com/jjflamp/rdeck/internal/redisclient"
 )
 
 type BulkRequest struct {

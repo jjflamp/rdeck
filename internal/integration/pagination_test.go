@@ -9,7 +9,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"rdeck/internal/keymodel"
+	"github.com/jjflamp/rdeck/internal/keymodel"
 )
 
 func seedAndClean(t *testing.T, cl keymodel.Client, key string, n int, seed func(i int)) {

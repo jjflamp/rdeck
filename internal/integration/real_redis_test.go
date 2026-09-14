@@ -12,9 +12,9 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"rdeck/internal/bulkops"
-	"rdeck/internal/console"
-	"rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/bulkops"
+	"github.com/jjflamp/rdeck/internal/console"
+	"github.com/jjflamp/rdeck/internal/redisclient"
 )
 
 func realConn(t *testing.T) *redisclient.Connection {

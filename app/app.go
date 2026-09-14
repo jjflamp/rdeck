@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"rdeck/internal/connections"
-	"rdeck/internal/events"
-	"rdeck/internal/redisclient"
-	"rdeck/internal/settings"
-	"rdeck/internal/tree"
+	"github.com/jjflamp/rdeck/internal/connections"
+	"github.com/jjflamp/rdeck/internal/events"
+	"github.com/jjflamp/rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/settings"
+	"github.com/jjflamp/rdeck/internal/tree"
 )
 
 type App struct {

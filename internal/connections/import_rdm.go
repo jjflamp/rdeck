@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/redisclient"
 )
 
 // ImportFromRDMFile imports connections.json exported by RESP.app /

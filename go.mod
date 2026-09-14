@@ -1,4 +1,4 @@
-module rdeck
+module github.com/jjflamp/rdeck
 
 go 1.25.0
 

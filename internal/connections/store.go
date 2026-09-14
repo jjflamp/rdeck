@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"rdeck/internal/redisclient"
-	"rdeck/internal/secrets"
+	"github.com/jjflamp/rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/secrets"
 )
 
 // Store persists connection configs as JSON in the settings directory.

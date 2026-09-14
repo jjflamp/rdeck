@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"rdeck/internal/formatter"
-	"rdeck/internal/keymodel"
-	"rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/formatter"
+	"github.com/jjflamp/rdeck/internal/keymodel"
+	"github.com/jjflamp/rdeck/internal/redisclient"
 )
 
 func (a *App) clientFor(connID string, db uint) (keymodel.Client, error) {

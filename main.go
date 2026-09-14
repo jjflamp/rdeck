@@ -12,11 +12,11 @@ import (
 	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
 	"github.com/wailsapp/wails/v2/pkg/options/mac"
 
-	"rdeck/app"
-	"rdeck/internal/connections"
-	"rdeck/internal/events"
-	"rdeck/internal/redisclient"
-	"rdeck/internal/settings"
+	"github.com/jjflamp/rdeck/app"
+	"github.com/jjflamp/rdeck/internal/connections"
+	"github.com/jjflamp/rdeck/internal/events"
+	"github.com/jjflamp/rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/settings"
 )
 
 //go:embed all:frontend/dist

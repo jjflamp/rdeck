@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"rdeck/internal/resp"
+	"github.com/jjflamp/rdeck/internal/resp"
 )
 
 type Session struct {

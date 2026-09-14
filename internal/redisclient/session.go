@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"rdeck/internal/resp"
+	"github.com/jjflamp/rdeck/internal/resp"
 )
 
 // NewSession opens a dedicated raw RESP2 connection for this connection

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"rdeck/internal/redisclient"
-	"rdeck/internal/secrets"
+	"github.com/jjflamp/rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/secrets"
 )
 
 // Secrets must live in the keyring (memory provider here), never in JSON.

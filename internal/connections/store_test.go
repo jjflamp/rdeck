@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"rdeck/internal/redisclient"
-	"rdeck/internal/secrets"
+	"github.com/jjflamp/rdeck/internal/redisclient"
+	"github.com/jjflamp/rdeck/internal/secrets"
 )
 
 func newTestStore(t *testing.T) *Store {
