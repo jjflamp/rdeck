@@ -43,6 +43,11 @@ jobs:
       - name: Install Wails CLI
         run: go install github.com/wailsapp/wails/v2/cmd/wails@latest
 
+      # frontend/dist must exist before `go test` (main.go embeds it)
+      - name: Build frontend
+        run: npm install && npm run build
+        working-directory: frontend
+
       - name: Unit tests
         run: go test ./... -count=1
 
@@ -52,7 +57,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: resp-go-${{ matrix.platform }}
+          name: rdeck-${{ matrix.platform }}
           path: |
             build/bin/*
           retention-days: 14
