@@ -34,6 +34,8 @@ jobs:
         with:
           node-version: '22'
 
+      # Ubuntu 24.04 only ships webkit2gtk-4.1; Wails v2 needs the
+      # `webkit2_41` build tag to link against it.
       - name: Install Linux deps
         if: matrix.platform == 'linux'
         run: |
@@ -48,10 +50,20 @@ jobs:
         run: npm install && npm run build
         working-directory: frontend
 
+      - name: Unit tests (linux)
+        if: matrix.platform == 'linux'
+        run: go test -tags webkit2_41 ./... -count=1
+
       - name: Unit tests
+        if: matrix.platform != 'linux'
         run: go test ./... -count=1
 
+      - name: Build (linux)
+        if: matrix.platform == 'linux'
+        run: wails build -tags webkit2_41
+
       - name: Build
+        if: matrix.platform != 'linux'
         run: wails build
 
       - name: Upload artifacts

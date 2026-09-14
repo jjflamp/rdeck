@@ -23,6 +23,10 @@ A Redis desktop client, built from scratch in Go — Wails v2 + go-redis v9 + Vu
 
 ## Build
 
+> Ubuntu 24.04+ note: `libwebkit2gtk-4.0-dev` is no longer available — install `libwebkit2gtk-4.1-dev` and build with \`wails build -tags webkit2_41\`.
+
+## Build
+
 ```bash
 # Requirements: Go 1.25+, Node 22+, Wails CLI
 go install github.com/wailsapp/wails/v2/cmd/wails@latest

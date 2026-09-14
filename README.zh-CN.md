@@ -22,6 +22,10 @@ Redis 桌面客户端，使用 Go 从零实现（Wails v2 + go-redis v9 + Vue 3�
 
 ## 构建
 
+> Ubuntu 24.04+ 提示：系统已无 `libwebkit2gtk-4.0-dev`，请安装 `libwebkit2gtk-4.1-dev` 并使用 \`wails build -tags webkit2_41\` 构建。
+
+## 构建
+
 ```bash
 # 依赖：Go 1.25+, Node 22+, Wails CLI
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
