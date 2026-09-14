@@ -8,6 +8,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: write # release asset upload on tag pushes
+
 jobs:
   build:
     strategy:
