@@ -1,0 +1,82 @@
+name: Bug report
+description: Report a problem with RDeck
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in the details below.
+  - type: input
+    id: version
+    attributes:
+      label: RDeck version
+      description: Version or commit you are running
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: redis-mode
+    attributes:
+      label: Redis deployment mode
+      options:
+        - standalone
+        - cluster
+        - sentinel
+        - other/unknown
+    validations:
+      required: true
+  - type: input
+    id: redis-version
+    attributes:
+      label: Redis version
+      placeholder: e.g. 8.0.1
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection type
+      options:
+        - direct
+        - TLS
+        - SSH tunnel
+        - SSH tunnel + TLS
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open connection …
+        2. Click …
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the full error text shown in the UI
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots / additional context

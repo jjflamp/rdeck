@@ -1,0 +1,30 @@
+:root {
+  font-family: -apple-system, 'PingFang SC', 'Segoe UI', sans-serif;
+  font-size: 14px;
+  color-scheme: light dark;
+
+  /* theme tokens (P5 dark mode) */
+  --bg: #f5f6f8;
+  --fg: #1f2328;
+  --panel: #ffffff;
+  --border: rgba(0, 0, 0, 0.12);
+  --muted: #666f7a;
+  --accent: #d82c20;
+  --accent2: #3567b3;
+}
+
+body.dark {
+  --bg: #1c1f24;
+  --fg: #e6e8eb;
+  --panel: #252a31;
+  --border: rgba(255, 255, 255, 0.14);
+  --muted: #98a2ad;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}

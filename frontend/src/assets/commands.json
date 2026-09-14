@@ -1,0 +1,1852 @@
+[
+ {
+  "cmd": "ACL",
+  "summary": "访问控制列表管理",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL CAT",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL DELUSER",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL DRYRUN",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "ACL GENPASS",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL GETUSER",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL HELP",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL LIST",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL LOAD",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL LOG",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL SAVE",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL SETUSER",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL USERS",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "ACL WHOAMI",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "APPEND",
+  "summary": "追加字符串",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "ASKING",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "AUTH",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "BGREWRITEAOF",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "BGSAVE",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "BITCOUNT",
+  "summary": "统计位图置位数",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "BITFIELD",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "BITFIELD_RO",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "BITOP",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "BITPOS",
+  "summary": "",
+  "since": "2.8.7"
+ },
+ {
+  "cmd": "BLMOVE",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "BLMPOP",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "BLPOP",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "BRPOP",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "BRPOPLPUSH",
+  "summary": "",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "BZMPOP",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "BZPOPMAX",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "BZPOPMIN",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "CLIENT",
+  "summary": "客户端连接管理",
+  "since": "2.4.0"
+ },
+ {
+  "cmd": "CLIENT CACHING",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "CLIENT GETNAME",
+  "summary": "",
+  "since": "2.6.9"
+ },
+ {
+  "cmd": "CLIENT GETREDIR",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "CLIENT HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "CLIENT ID",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "CLIENT INFO",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "CLIENT KILL",
+  "summary": "",
+  "since": "2.4.0"
+ },
+ {
+  "cmd": "CLIENT LIST",
+  "summary": "",
+  "since": "2.4.0"
+ },
+ {
+  "cmd": "CLIENT NO-EVICT",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "CLIENT NO-TOUCH",
+  "summary": "",
+  "since": "7.2.0"
+ },
+ {
+  "cmd": "CLIENT PAUSE",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLIENT REPLY",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "CLIENT SETINFO",
+  "summary": "",
+  "since": "7.2.0"
+ },
+ {
+  "cmd": "CLIENT SETNAME",
+  "summary": "",
+  "since": "2.6.9"
+ },
+ {
+  "cmd": "CLIENT TRACKING",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "CLIENT TRACKINGINFO",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "CLIENT UNBLOCK",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "CLIENT UNPAUSE",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "CLUSTER",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER ADDSLOTS",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER ADDSLOTSRANGE",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "CLUSTER BUMPEPOCH",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER COUNT-FAILURE-REPORTS",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER COUNTKEYSINSLOT",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER DELSLOTS",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER DELSLOTSRANGE",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "CLUSTER FAILOVER",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER FLUSHSLOTS",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER FORGET",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER GETKEYSINSLOT",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "CLUSTER INFO",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER KEYSLOT",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER LINKS",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "CLUSTER MEET",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER MYID",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER MYSHARDID",
+  "summary": "",
+  "since": "7.2.0"
+ },
+ {
+  "cmd": "CLUSTER NODES",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER REPLICAS",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "CLUSTER REPLICATE",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER RESET",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER SAVECONFIG",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER SET-CONFIG-EPOCH",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER SETSLOT",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER SHARDS",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "CLUSTER SLAVES",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "CLUSTER SLOTS",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "COMMAND",
+  "summary": "返回命令信息",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "COMMAND COUNT",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "COMMAND DOCS",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "COMMAND GETKEYS",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "COMMAND GETKEYSANDFLAGS",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "COMMAND HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "COMMAND INFO",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "COMMAND LIST",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "CONFIG",
+  "summary": "服务器配置管理",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "CONFIG GET",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "CONFIG HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "CONFIG RESETSTAT",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "CONFIG REWRITE",
+  "summary": "",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "CONFIG SET",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "COPY",
+  "summary": "复制 key",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "DBSIZE",
+  "summary": "返回当前库 key 数量",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "DEBUG",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "DECR",
+  "summary": "整数值减一",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "DECRBY",
+  "summary": "整数值减少指定量",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "DEL",
+  "summary": "删除一个或多个 key",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "DISCARD",
+  "summary": "放弃事务",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "DUMP",
+  "summary": "序列化 key",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "ECHO",
+  "summary": "回显输入",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "EVAL",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "EVALSHA",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "EVALSHA_RO",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "EVAL_RO",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "EXEC",
+  "summary": "执行事务",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "EXISTS",
+  "summary": "检查 key 是否存在",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "EXPIRE",
+  "summary": "设置 key 的过期时间（秒）",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "EXPIREAT",
+  "summary": "",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "EXPIRETIME",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FAILOVER",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "FCALL",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FCALL_RO",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FLUSHALL",
+  "summary": "清空所有库",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "FLUSHDB",
+  "summary": "清空当前库",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "FUNCTION",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION DELETE",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION DUMP",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION FLUSH",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION HELP",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION KILL",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION LIST",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION LOAD",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION RESTORE",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "FUNCTION STATS",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "GEOADD",
+  "summary": "添加地理位置",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "GEODIST",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "GEOHASH",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "GEOPOS",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "GEORADIUS",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "GEORADIUSBYMEMBER",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "GEORADIUSBYMEMBER_RO",
+  "summary": "",
+  "since": "3.2.10"
+ },
+ {
+  "cmd": "GEORADIUS_RO",
+  "summary": "",
+  "since": "3.2.10"
+ },
+ {
+  "cmd": "GEOSEARCH",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "GEOSEARCHSTORE",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "GET",
+  "summary": "获取字符串值",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "GETBIT",
+  "summary": "获取位图位",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "GETDEL",
+  "summary": "获取并删除",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "GETEX",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "GETRANGE",
+  "summary": "返回字符串子串",
+  "since": "2.4.0"
+ },
+ {
+  "cmd": "GETSET",
+  "summary": "设置新值并返回旧值",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "HDEL",
+  "summary": "删除 hash 字段",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HELLO",
+  "summary": "",
+  "since": "6.0.0"
+ },
+ {
+  "cmd": "HEXISTS",
+  "summary": "检查 hash 字段是否存在",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HGET",
+  "summary": "获取 hash 字段",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HGETALL",
+  "summary": "获取 hash 所有字段与值",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HINCRBY",
+  "summary": "hash 字段整数增加",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HINCRBYFLOAT",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "HKEYS",
+  "summary": "返回 hash 所有字段",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HLEN",
+  "summary": "返回 hash 字段数量",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HMGET",
+  "summary": "批量获取 hash 字段",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HMSET",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HRANDFIELD",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "HSCAN",
+  "summary": "增量遍历 hash",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "HSET",
+  "summary": "设置 hash 字段",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HSETNX",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "HSTRLEN",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "HVALS",
+  "summary": "返回 hash 所有值",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "INCR",
+  "summary": "整数值加一",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "INCRBY",
+  "summary": "整数值增加指定量",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "INCRBYFLOAT",
+  "summary": "浮点值增加指定量",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "INFO",
+  "summary": "返回服务器信息",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "KEYS",
+  "summary": "按模式查找所有 key",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LASTSAVE",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LATENCY",
+  "summary": "延迟监控",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "LATENCY DOCTOR",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "LATENCY GRAPH",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "LATENCY HELP",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "LATENCY HISTOGRAM",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "LATENCY HISTORY",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "LATENCY LATEST",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "LATENCY RESET",
+  "summary": "",
+  "since": "2.8.13"
+ },
+ {
+  "cmd": "LCS",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "LINDEX",
+  "summary": "按索引获取列表元素",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LINSERT",
+  "summary": "",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "LLEN",
+  "summary": "返回列表长度",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LMOVE",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "LMPOP",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "LOLWUT",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "LPOP",
+  "summary": "弹出左侧元素",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LPOS",
+  "summary": "",
+  "since": "6.0.6"
+ },
+ {
+  "cmd": "LPUSH",
+  "summary": "从左侧插入列表",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LPUSHX",
+  "summary": "",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "LRANGE",
+  "summary": "返回列表区间元素",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LREM",
+  "summary": "移除列表中指定值元素",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LSET",
+  "summary": "按索引设置列表元素",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "LTRIM",
+  "summary": "裁剪列表区间",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "MEMORY",
+  "summary": "内存使用分析",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MEMORY DOCTOR",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MEMORY HELP",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MEMORY MALLOC-STATS",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MEMORY PURGE",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MEMORY STATS",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MEMORY USAGE",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MGET",
+  "summary": "批量获取",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "MIGRATE",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "MODULE",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MODULE HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "MODULE LIST",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MODULE LOAD",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MODULE LOADEX",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "MODULE UNLOAD",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "MONITOR",
+  "summary": "实时打印所有命令",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "MOVE",
+  "summary": "移动 key 到其他库",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "MSET",
+  "summary": "批量设置",
+  "since": "1.0.1"
+ },
+ {
+  "cmd": "MSETNX",
+  "summary": "",
+  "since": "1.0.1"
+ },
+ {
+  "cmd": "MULTI",
+  "summary": "开启事务",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "OBJECT",
+  "summary": "",
+  "since": "2.2.3"
+ },
+ {
+  "cmd": "OBJECT ENCODING",
+  "summary": "",
+  "since": "2.2.3"
+ },
+ {
+  "cmd": "OBJECT FREQ",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "OBJECT HELP",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "OBJECT IDLETIME",
+  "summary": "",
+  "since": "2.2.3"
+ },
+ {
+  "cmd": "OBJECT REFCOUNT",
+  "summary": "",
+  "since": "2.2.3"
+ },
+ {
+  "cmd": "PERSIST",
+  "summary": "移除 key 的过期时间",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "PEXPIRE",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "PEXPIREAT",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "PEXPIRETIME",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "PFADD",
+  "summary": "添加 HyperLogLog 元素",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "PFCOUNT",
+  "summary": "返回 HyperLogLog 估算基数",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "PFDEBUG",
+  "summary": "",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "PFMERGE",
+  "summary": "",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "PFSELFTEST",
+  "summary": "",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "PING",
+  "summary": "测试连接",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "PSETEX",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "PSUBSCRIBE",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "PSYNC",
+  "summary": "",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "PTTL",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "PUBLISH",
+  "summary": "发布消息到频道",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "PUBSUB",
+  "summary": "查看发布/订阅状态",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "PUBSUB CHANNELS",
+  "summary": "",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "PUBSUB HELP",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "PUBSUB NUMPAT",
+  "summary": "",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "PUBSUB NUMSUB",
+  "summary": "",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "PUBSUB SHARDCHANNELS",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "PUBSUB SHARDNUMSUB",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "PUNSUBSCRIBE",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "QUIT",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "RANDOMKEY",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "READONLY",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "READWRITE",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "RENAME",
+  "summary": "重命名 key",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "RENAMENX",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "REPLCONF",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "REPLICAOF",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "RESET",
+  "summary": "重置连接状态",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "RESTORE",
+  "summary": "反序列化并恢复 key",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "RESTORE-ASKING",
+  "summary": "",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "ROLE",
+  "summary": "",
+  "since": "2.8.12"
+ },
+ {
+  "cmd": "RPOP",
+  "summary": "弹出右侧元素",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "RPOPLPUSH",
+  "summary": "",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "RPUSH",
+  "summary": "从右侧插入列表",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "RPUSHX",
+  "summary": "",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "SADD",
+  "summary": "向集合添加成员",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SAVE",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SCAN",
+  "summary": "增量遍历键空间",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "SCARD",
+  "summary": "返回集合成员数量",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SCRIPT",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "SCRIPT DEBUG",
+  "summary": "",
+  "since": "3.2.0"
+ },
+ {
+  "cmd": "SCRIPT EXISTS",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "SCRIPT FLUSH",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "SCRIPT HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "SCRIPT KILL",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "SCRIPT LOAD",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "SDIFF",
+  "summary": "多个集合差集",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SDIFFSTORE",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SELECT",
+  "summary": "切换数据库",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SET",
+  "summary": "设置字符串值",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SETBIT",
+  "summary": "设置位图位",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "SETEX",
+  "summary": "设置值与过期时间",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "SETNX",
+  "summary": "key 不存在时设置",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SETRANGE",
+  "summary": "覆写字符串子串",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "SHUTDOWN",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SINTER",
+  "summary": "多个集合交集",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SINTERCARD",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "SINTERSTORE",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SISMEMBER",
+  "summary": "检查成员是否在集合中",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SLAVEOF",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SLOWLOG",
+  "summary": "慢查询日志",
+  "since": "2.2.12"
+ },
+ {
+  "cmd": "SLOWLOG GET",
+  "summary": "",
+  "since": "2.2.12"
+ },
+ {
+  "cmd": "SLOWLOG HELP",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "SLOWLOG LEN",
+  "summary": "",
+  "since": "2.2.12"
+ },
+ {
+  "cmd": "SLOWLOG RESET",
+  "summary": "",
+  "since": "2.2.12"
+ },
+ {
+  "cmd": "SMEMBERS",
+  "summary": "返回集合所有成员",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SMISMEMBER",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "SMOVE",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SORT",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SORT_RO",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "SPOP",
+  "summary": "随机弹出成员",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SPUBLISH",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "SRANDMEMBER",
+  "summary": "随机返回成员",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SREM",
+  "summary": "从集合移除成员",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SSCAN",
+  "summary": "增量遍历集合",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "SSUBSCRIBE",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "STRLEN",
+  "summary": "返回字符串长度",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "SUBSCRIBE",
+  "summary": "订阅频道",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "SUBSTR",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SUNION",
+  "summary": "多个集合并集",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SUNIONSTORE",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "SUNSUBSCRIBE",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "SWAPDB",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "SYNC",
+  "summary": "",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "TIME",
+  "summary": "",
+  "since": "2.6.0"
+ },
+ {
+  "cmd": "TOUCH",
+  "summary": "",
+  "since": "3.2.1"
+ },
+ {
+  "cmd": "TTL",
+  "summary": "查询 key 剩余过期时间",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "TYPE",
+  "summary": "返回 key 的数据类型",
+  "since": "1.0.0"
+ },
+ {
+  "cmd": "UNLINK",
+  "summary": "",
+  "since": "4.0.0"
+ },
+ {
+  "cmd": "UNSUBSCRIBE",
+  "summary": "退订频道",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "UNWATCH",
+  "summary": "取消监视",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "WAIT",
+  "summary": "等待副本写入确认",
+  "since": "3.0.0"
+ },
+ {
+  "cmd": "WAITAOF",
+  "summary": "",
+  "since": "7.2.0"
+ },
+ {
+  "cmd": "WATCH",
+  "summary": "监视 key",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "XACK",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XADD",
+  "summary": "向流添加消息",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XAUTOCLAIM",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "XCLAIM",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XDEL",
+  "summary": "删除流消息",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XGROUP",
+  "summary": "消费者组管理",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XGROUP CREATE",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XGROUP CREATECONSUMER",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "XGROUP DELCONSUMER",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XGROUP DESTROY",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XGROUP HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XGROUP SETID",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XINFO",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XINFO CONSUMERS",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XINFO GROUPS",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XINFO HELP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XINFO STREAM",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XLEN",
+  "summary": "返回流长度",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XPENDING",
+  "summary": "查看待处理消息",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XRANGE",
+  "summary": "按 ID 区间返回流消息",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XREAD",
+  "summary": "从流读取消息",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XREADGROUP",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XREVRANGE",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XSETID",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "XTRIM",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "ZADD",
+  "summary": "向有序集合添加成员",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZCARD",
+  "summary": "返回有序集合成员数量",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZCOUNT",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "ZDIFF",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "ZDIFFSTORE",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "ZINCRBY",
+  "summary": "增加成员分数",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZINTER",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "ZINTERCARD",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "ZINTERSTORE",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "ZLEXCOUNT",
+  "summary": "",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "ZMPOP",
+  "summary": "",
+  "since": "7.0.0"
+ },
+ {
+  "cmd": "ZMSCORE",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "ZPOPMAX",
+  "summary": "",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "ZPOPMIN",
+  "summary": "弹出分数最低成员",
+  "since": "5.0.0"
+ },
+ {
+  "cmd": "ZRANDMEMBER",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "ZRANGE",
+  "summary": "按排名区间返回成员",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZRANGEBYLEX",
+  "summary": "",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "ZRANGEBYSCORE",
+  "summary": "按分数区间返回成员",
+  "since": "1.0.5"
+ },
+ {
+  "cmd": "ZRANGESTORE",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "ZRANK",
+  "summary": "返回成员排名",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "ZREM",
+  "summary": "移除有序集合成员",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZREMRANGEBYLEX",
+  "summary": "",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "ZREMRANGEBYRANK",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "ZREMRANGEBYSCORE",
+  "summary": "",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZREVRANGE",
+  "summary": "按排名倒序返回成员",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZREVRANGEBYLEX",
+  "summary": "",
+  "since": "2.8.9"
+ },
+ {
+  "cmd": "ZREVRANGEBYSCORE",
+  "summary": "",
+  "since": "2.2.0"
+ },
+ {
+  "cmd": "ZREVRANK",
+  "summary": "",
+  "since": "2.0.0"
+ },
+ {
+  "cmd": "ZSCAN",
+  "summary": "增量遍历有序集合",
+  "since": "2.8.0"
+ },
+ {
+  "cmd": "ZSCORE",
+  "summary": "返回成员分数",
+  "since": "1.2.0"
+ },
+ {
+  "cmd": "ZUNION",
+  "summary": "",
+  "since": "6.2.0"
+ },
+ {
+  "cmd": "ZUNIONSTORE",
+  "summary": "",
+  "since": "2.0.0"
+ }
+]
